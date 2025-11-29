@@ -1,4 +1,4 @@
-d,D,T,B,C,r min,r1 min,C_r,C_0r,Pu,P0,Limiting Speed Oil (rpm),Limiting Speed Grease (rpm),name,Designation,Col3,Col4,Col5,Col6,Col7,Col8,Col9,Col10,Col11,a,e,Y1,Y0,
+d,D,T,B,C,r min,r1 min,C_r,C_0r,Pu,P0,Limiting Speed Oil (rpm),Limiting Speed Grease (rpm),name,Designation,da_min,da_max,Col5,Col6,Col7,Col8,Col9,Col10,Col11,a,e,Y1,Y0,
 55,80,17,17,14,1,1,45500,74500,4600,7600,4300,5600,HR 32911 J,2BC,64,60,74,73,76,4,3,1,1,14.6,0.31,1.9,1.1,
 55,90,23,23,17.5,1.5,1.5,81500,117000,8300,11900,3800,5300,HR 32011 XJ,3CC,66,62,81,80,86,4,5.5,1.5,1.5,19.7,0.41,1.5,0.81,
 55,90,27,27,21,1.5,1.5,91500,138000,9300,14000,3800,5300,HR 33011 J,2CE,66,62,81,80,86,5,6,1.5,1.5,19.2,0.31,1.9,1.1,
