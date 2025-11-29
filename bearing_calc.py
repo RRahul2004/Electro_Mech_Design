@@ -73,7 +73,7 @@ def calculate_bearing_loads(bearing_C: BearingParams,
     d_d_prime = 0.078
     if f2f == True:
         d_C=d_c_prime-a_C + bearing_C.c
-        d_D = d_d_prime-a_D+bearing_D.c
+        d_D = d_d_prime-a_D+ bearing_D.c
     else:
         d_C = d_c_prime + a_C
         d_D = d_d_prime + a_D
@@ -173,7 +173,7 @@ def main():
                 
                 # Filter: only keep results where f_s > 20 and L_10 > 50000 for both bearings
                 if (results['f_s_D'] > 20 and results['f_s_C'] > 20 and 
-                   results['L_10_D'] > 50000 and results['L_10_C'] > 50000 and bearing_C.da_min <=66 and bearing_D.da_min <=86  ):
+                   results['L_10_D'] > 50000 and results['L_10_C'] > 50000 and bearing_C.d <=66 and bearing_D.da_min <=86 ):
                     
                 # Write row to CSV
                     writer.writerow({
